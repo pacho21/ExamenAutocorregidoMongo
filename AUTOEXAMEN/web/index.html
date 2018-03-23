@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Examen Autocorregido</title>
+        <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link href="css/login.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <script src="js/js.js"></script>
+        <link rel="shortcut icon" href="img/favicon.ico">
+    </head>
+
+    <body>
+        <div class="container-fluid" id="index">
+            <div id="tCreateTest" class="row justify-content-center">
+                <div class="createTestContainer col-sm-8">
+                    <h2>Para empezar el test debe introducir su DNI o NIE:</h2>
+                    <br/>
+                    <div class="form-group-lg">
+                        <div id="testDetails">
+                            <form id="dniForm" class="form-group">
+                                <input type="text" class="form-control" placeholder="Introduzca el DNI / NIF"  maxlength="10" id="inpDNI" pattern="(([X-Z]{1})([-]?)(\d{7})([-]?)([A-Z]{1}))|((\d{8})([-]?)([A-Z]{1}))" title="00000000Z / X0000000X" required>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Obtener clave de correción</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form id="encryptForm" class="form-group">
+                                <input type="text" class="form-control" placeholder="Introduzca el DNI / NIF"  maxlength="10" id="encryptDNI" pattern="(([X-Z]{1})([-]?)(\d{7})([-]?)([A-Z]{1}))|((\d{8})([-]?)([A-Z]{1}))" title="00000000Z / X0000000X" required>
+                            </form>
+                            <div class="container" id="clave"></div>
+                            <button class="btn btn-outline-success" type="submit" form="encryptForm" >Obtener Clave</button> 
+                        </div>   
+                    </div>
+                </div>
+            </div>
+            <div id="addQuestion" class="row justify-content-center">
+                <div class="form-group-lg col-sm-8">
+                    <form class="form-group">
+                        <div class="btn-group" data-toggle="buttons">
+                            <label class="btn btn btn-success active"><input type="radio" name = "examenes" autocomplete="off" checked value="a"> Examen A</label>
+                            <label class="btn btn-success"><input type="radio" name="examenes" value="b" autocomplete="off">Examen B</label>
+                            <label class="btn btn-success"><input type="radio" name="examenes" value="c" autocomplete="off">Examen C</label>
+                        </div>
+                    </form>
+                    <button class="btn btn-outline-success" type="submit" form="dniForm" id="hacerTest">Empezar el examen</button>
+                    <br/>
+                    <button class="btn btn-outline-success" id="verResultados">Ver Resultados</button>
+                    <button class="btn btn-outline-success" id="identificador" data-toggle="modal" data-target="#exampleModalCenter" type="button" >Obtener Identificador</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

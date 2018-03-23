@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Examen Mongo :)</title>    
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>    
+        <script src="js/resultados.js"></script>
+        <link href="css/resultados.css" rel="stylesheet">
+        <link rel="shortcut icon" href="img/favicon.ico">
+    </head>
+    <body> 
+    <div class="container">   <h2>Todos los resultados</h2>
+  <p>Si ha suspendido y se arrepiente de ello puede realizar de nuevo el examen. Se aprobara la ultima nota guardada:</p>
+  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Buscar su identificador.." title="Buscador de id">
+  <div id="myDiv" class="table-responsive">
+            <table id="myTable" class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Identificador Único</th>
+                        <th>Examen</th>
+                        <th>Nota</th>
+                    </tr>
+                </thead>
+                <tbody id="notas">                
+                </tbody>
+            </table>
+        </div>
+        <div class="text-center">
+                    <div id="boton"><button type="button" class="btn btn-info" id="volver">Volver Atrás</button>   
+                                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter">Obtener su identificador</button></div>       
+		</div>
+    </div>
+    <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Obtener clave de correción</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form id="encryptForm" class="form-group">
+                                <input type="text" class="form-control" placeholder="Introduzca el DNI / NIF"  maxlength="10" id="encryptDNI" pattern="(([X-Z]{1})([-]?)(\d{7})([-]?)([A-Z]{1}))|((\d{8})([-]?)([A-Z]{1}))" title="00000000Z / X0000000X" required>
+                            </form>
+                            <div class="container" id="clave"></div>
+                            <button class="btn btn-outline-success" type="submit" form="encryptForm" >Obtener Clave</button> 
+                        </div>   
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>

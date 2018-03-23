@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>GetEncrypt</servlet-name>
+        <servlet-class>servlets.GetEncrypt</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetEncrypt</servlet-name>
+        <url-pattern>/GetEncrypt</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>GetExamen</servlet-name>
+        <servlet-class>servlets.GetExamen</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetExamen</servlet-name>
+        <url-pattern>/GetExamen</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>GetListado</servlet-name>
+        <servlet-class>servlets.GetListado</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetListado</servlet-name>
+        <url-pattern>/GetListado</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>PostAnswer</servlet-name>
+        <servlet-class>servlets.PostAnswer</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PostAnswer</servlet-name>
+        <url-pattern>/PostAnswer</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

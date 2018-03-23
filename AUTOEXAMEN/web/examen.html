@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Examen Mongo :)</title>    
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/examen.css" >        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>        
+        <script src="js/examen.js"></script>
+        <link rel="shortcut icon" href="img/favicon.ico">
+    </head>
+
+    <body>
+        <div id="imagen">
+            <div id="info">
+                <p id="headline">Prueba tus conocimientos!</p>
+                <p id="descripcion">¿Aprobarás?</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="text-center">
+                <div id="loading">
+                    <img id="loading-image" src="img/loading.gif" alt="Loading..." />
+                </div>
+            </div>   
+            <div id="demo" >
+                <form id="contExam">		                    
+                </form>
+                <div class="text-center">
+                    <div id="boton"><button type="submit" class="btn btn-info" form="contExam"> Enviar examen</button></div>       
+                </div>
+            </div>
+        </div>
+        <br/>
+        <div id="modal" class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">        
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div id="modalIn" class="modal-body">
+                        <h3> Esta seguro que desea corregir el examen?</h3>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" id="save">Enviar examen</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

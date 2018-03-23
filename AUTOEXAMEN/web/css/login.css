@@ -1,0 +1,125 @@
+.container-fluid{
+    width: 80%;
+}
+#lgFormGroupInput{
+    text-align: center;
+
+}
+#tCreateTest{margin: 2%;
+            
+            
+}
+
+#clave{
+    display:none;
+}
+.btn-success {
+    color: #fff;
+    background-color: #6f96d6;
+    border-color:#6f96d6;}
+
+    .btn-success:hover{
+    color: #fff;
+    background-color: #a5bde5;
+    border-color:#6f96d6;}
+
+#index{
+    margin-top: 20px;
+            border-style:outset;
+             border-color:#6f96d6;
+             border-radius:25px;
+             padding-bottom: 2%;
+}
+#tCreateTest {
+    text-align: center;
+    margin: 2%;
+    
+    color: #333333;
+    padding: 0 0 2rem;
+    margin-top: 10%;
+    padding-top: 4%;
+}
+
+#submitTitle {
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+#addQuestion {
+    margin: 2%;
+   
+    color: #333333;
+    padding: 0 0 2rem;
+}
+
+#addQuestion .form-group {
+    margin-bottom: 1rem;
+}
+#hacerTest{
+    width: 100%;
+    position:relative; 
+    margin-top: 5%;  			
+
+}
+#identificador{
+    width: 100%;
+    position:relative; 
+    margin-top: 5%;             
+
+}
+#verResultados{
+    width: 100%;
+    position:relative; 
+    margin-top: 5%;             
+
+}
+#identificador{
+    width: 100%;
+    position:relative; 
+    margin-top: 5%;             
+
+}
+#addQuestion .form-group label{margin-bottom:0;flex:1 0 30%;}
+#addQuestion .btn-group{display:flex;flex-wrap:wrap;}
+
+.btn-outline-success {
+    color:  #6f96d6;
+    background-image: none;
+    background-color: transparent;
+    border-color:  #6f96d6;
+}
+.btn-success.active, .btn-success:active, .show>.btn-success.dropdown-toggle {
+    color: #fff;
+    background-color: #a6c3f4;
+    background-image: none;
+    border-color: #6f96d6;}
+
+.btn-outline-success {
+    color: #6f96d6;
+    background-image: none;
+    background-color: transparent;
+    border-color: #7996c6;}
+.hacerTest{
+    color: #6f96d6;
+    background-image: none;
+    background-color: transparent;
+    border-color: #6f96d6;}
+.verResultados{
+    color: #6f96d6;
+    background-image: none;
+    background-color: transparent;
+    border-color: #6f96d6;}
+.indentificador{
+    color: #6f96d6;
+    background-image: none;
+    background-color: transparent;
+    border-color: #6f96d6;}
+btn-group{
+    color: #6f96d6;
+    background-image: none;
+    background-color: transparent;
+    border-color: #6f96d6;}
+.btn-outline-success:hover{
+    background-color:#6f96d6;
+}

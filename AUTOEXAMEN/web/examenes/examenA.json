@@ -1,0 +1,101 @@
+{
+   "id": "a",
+   "question": [
+      {
+         "id": "q_01",
+         "type": "radio",
+         "title": "1.- ¿Cómo se llama el gato que come lasaña? :",
+         "option": [
+            "a) Garfield",
+            "b) Tom",
+            "c) Doraemon",
+            "d) Hello Kitty"
+         ]
+      },
+      {
+         "id": "q_02",
+         "type": "radio",
+         "title": "2.-¿Cómo se llama el gato que persigue a Jerry? :",
+         "option": [
+            "a) Heidi",
+            "b) Marco",
+            "c) Tom",
+            "d) Nadie persigue a Jerry"
+         ]
+      },
+      {
+         "id": "q_03",
+         "type": "text",
+         "title": "3.-¿Tiene memoria Dory?"
+      },
+      {
+         "id": "q_04",
+         "type": "text",
+         "title": "4.-¿Quién tiene un bolsillo mágico?"
+      },
+      {
+         "id": "q_05",
+         "type": "checkbox",
+         "title": "5.-¿Existe vida antes del café?:",
+         "option": [
+            "a) Sí",
+            "b) No",
+            "c) No lo sé porque soy un fracasado que toma té"
+         ]
+      },
+      {
+         "id": "q_06",
+         "type": "checkbox",
+         "title": "6.-¿Cuál es la primera causa del divorcio?:",
+         "option": [
+            "a) El cambio climático",
+            "b) El matrimonio",
+            "c) Las enfermedades"
+         ]
+      },
+      {
+         "id": "q_07",
+         "type": "select",
+         "title": "7.-¿Cuál de estas es marca de ordenadores?",
+         "option": [
+            "a) Acer",
+            "b) Donuts",
+            "c) Audi",
+            "d) Mc Donalds"
+         ]
+      },
+      {
+         "id": "q_08",
+         "type": "select",
+         "title": "8.-¿Qué es lo que todo el mundo hace al despertar?",
+         "option": [
+            "a) Llorar",
+            "b) Abrir los ojos",
+            "c) Dormirse otra vez",
+            "d) Apagar la alarma"
+         ]
+      },
+      {
+         "id": "q_09",
+         "type": "multiple",
+         "title": "9.-¿Cuál de estas son marcas de coche?",
+         "option": [
+            "a) Audi",
+            "b) Windows",
+            "c) Benz",
+            "d) Apple"
+         ]
+      },
+      {
+         "id": "q_10",
+         "type": "multiple",
+         "title": "10.-¿Cuáles de estos nombres pertenecen a actores?",
+         "option": [
+            "a) Mariano Rajoy",
+            "b) Penélope Cruz",
+            "c) Cristiano Ronaldo",
+            "d) Florentino Pérez"
+         ]
+      }
+   ]
+}

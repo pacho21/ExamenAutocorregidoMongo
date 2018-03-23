@@ -1,0 +1,104 @@
+{
+   "id": "c",
+   "question": [
+   	{
+         "id": "q_01",
+         "type": "radio",
+         "title": "1. ¿Qué es lo primero que hace una vaca cuando sale el Sol?",
+         "option": [
+            "a) Ir a pastar",
+            "b) Dormir",
+            "c) Sombra"
+         ]
+      },
+      {
+         "id": "q_02",
+         "type": "radio",
+         "title": "2. ¿Qué es más rápido en la sabana?",
+         "option": [
+            "a) Un guepardo",
+            "b) Un jaguar",
+            "c) El correcaminos",
+            "d) Una jirafa en un ferrari"
+         ]
+      },
+      {
+         "id": "q_03",
+         "type": "text",
+         "title": "3. Te la digo, y no la entiendes; te la vuelvo a repetir y por mucho que te la diga, no la sabes escribir. ¿Qué es?"
+         
+      },
+      {
+         "id": "q_04",
+         "type": "text",
+         "title": "4. Si lo nombras, desaparece. Hablamos del..."
+      },
+      {
+         "id": "q_05",
+         "type": "checkbox",
+         "title": "5. Laura, la madre de Lola, tiene 5 hijas. Cuatro de ellas se llaman Lala, Lele, Lili, Lolo. ¿Cuáles son los nombres de las 5 hermanas?",
+         "option": [
+            "a) Laura",
+            "b) Lola",
+            "c) Lala",
+            "d) Lele",
+            "e) Lili",
+            "f) Lolo",
+            "g) Lulu"
+         ]
+      },
+      {
+         "id": "q_06",
+         "type": "checkbox",
+         "title": "6. Valore este examen (sabiendo que una mala valoración podría bajar su nota...)",
+         "option": [
+            "a) Es genial",
+            "b) Increíble",
+            "c) Malísimo (PISTA: Esta no la marques...)"
+         ]
+      },
+      {
+         "id": "q_07",
+         "type": "select",
+         "title": "7. Si explota un avión, ¿por dónde saldrías?",
+         "option": [
+            "a) Por la puerta de emergencia",
+            "b) Por una ventanilla",
+            "c) Por las noticias"
+         ]
+      },
+      {
+         "id": "q_08",
+         "type": "select",
+         "title": "8. Si hay un incendio en el zoo, ¿quién tiene la culpa?",
+         "option": [
+            "a) Los leones",
+            "b) Las llamas",
+            "c) Los osos polares"
+         ]
+      },
+      {
+         "id": "q_09",
+         "type": "multiple",
+         "title": "9. ¿Cómo se llaman los tres chinos más pobres?",
+         "option": [
+            "a) Chin lu",
+            "b) Chin gas",
+            "c) Chin pon",
+            "d) Chin agua"
+         ]
+      },
+      {
+         "id": "q_10",
+         "type": "multiple",
+         "title": "10. Este banco está ocupado, por un padre y un hijo, el padre se llama Juan y el hijo ya te lo he dicho. ¿Quiénes están sentados en el banco?",
+         "option": [
+            "a) Juan",
+            "b) El banco está pintado, no hay nadie sentado",
+            "c) Una señora alimentando palomas",
+            "d) Esteban",
+            "e) Carlos"
+         ]
+      }  
+   ]
+}
